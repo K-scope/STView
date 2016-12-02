@@ -32,7 +32,13 @@ If you would like to build STView from source codes, PDE is required in addition
 
 ## Quick Start
 
-To be prepared
+First, you can open the Install dialogue in "Help" -> "Install New Software" from the menu on Eclipse. After that, you fill in the following URL on the "Work with:" then you can see the STView item in the list.
+
+http://www.aics.riken.jp/ungi/soft/stview/feature/
+
+<kbd>
+<img src="http://www.aics.riken.jp/ungi/soft/stview/materials/fig_install.jpg" width="500" />
+</kbd>
 
 ## Build STView
 

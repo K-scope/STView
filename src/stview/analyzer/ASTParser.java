@@ -41,9 +41,9 @@ public class ASTParser {
 		fnListCheck();
 	
 		for (IFile file : ctr.getFilelist()) {
-			// access rule ‚ÌXV
+			// access rule ï¿½ÌXï¿½V
 			IFortranAST ast = PhotranVPG.getInstance().acquirePermanentAST(file);
-			// program‚ª‚È‚¢ê‡
+			// programï¿½ï¿½ï¿½È‚ï¿½ï¿½ê‡
 			if (ast == null) {
 				MessageLog.logConsole(file.getName()+" "+MessageLog.getString("error.noAST"));
 				continue;
@@ -60,7 +60,7 @@ public class ASTParser {
 	 */
 	protected void fnListCheck(){
 		funcList = new ArrayList<String>();
-		//Add instrinsic functions
+		//Add intrinsic functions
 		if(PreferenceConstants.getInstMode())
 			for(IntrinsicProcDescription intri : Intrinsics.getAllIntrinsicProcedures())
 				funcList.add(intri.genericName.toLowerCase());
